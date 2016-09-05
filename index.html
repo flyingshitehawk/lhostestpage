@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Little Hands of Silver</title>
+
+    <link href="../../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles/main.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <video id="my-video" class="video" autoplay="autoplay" loop="loop" muted="" width="300" height="150">
+        <source src="media/video/background.mp4" type="video/mp4" />
+
+    </video>
+    <!-- /video -->
+    <div class="background">
+        <div class="container">
+
+
+
+            <div class="row1">
+                <img id="little_splash" class="" src="media/images/little_65.png" alt="">
+            </div>
+
+            <div class="row2">
+                <img id="hands_splash" class="" src="media/images/hands_65.png" alt="">
+            </div>
+
+            <div class="row3">
+                <img id="of_splash" class="" src="media/images/of_65.png" alt="">
+
+                <img id="silver_splash" class="" src="media/images/silver_65.png" alt="">
+            </div>
+
+            <div class="media_buttons">
+                <a href="https://itunes.apple.com/gb/album/id1134999782?app=itunes"><img class="icons" src="media/images/apple_icon.png" alt="" height="50"></a>
+                <a href="https://open.spotify.com/album/0jDH12d46oCEx8G24VE4Fw"><img class="icons" src="media/images/spotify_icon.png" alt="" height="50"></a>
+                <a href="http://lhos.bandcamp.com/"><img class="icons" src="media/images/bandcamp_icon.png" alt="" height="50"></a>
+                <a href="https://www.amazon.co.uk/Loading-Explicit-Little-Hands-Silver/dp/B01IS3BQBC/ref=sr_1_1?s=dmusic&ie=UTF8&qid=1469477423&sr=1-1-mp3-albums-bar-strip-0&keywords=little+hands+of+silver"><img class="icons" src="media/images/amazon_icon.png" alt="" height="50"></a>
+
+
+
+            </div>
+            <div class="enter_button">
+                <a href="index.html"><h1>ENTER SITE</h1></a>
+            </div>
+
+        </div>
+
+
+
+
+    </div>
+
+    <!-- JAVA NOODLING FOR ANIMATIONS -->
+    <script src="scripts/main.js"></script>
+    <!--  <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script> -->
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/jquery-ui/jquery-ui.min.js"></script>
+
+    <!-- JQUERY APPEARING TEXT ON PAGE LOAD -->
+
+    <script>
+        $(function() {
+
+        $('#little_splash').delay(500).css('visibility', 'visible')
+        $('#hands_splash').delay(1000).removeClass('hidden');
+        $('#of_splash').delay(1500).removeClass('hidden');
+        $('#silver_splash').delay(2000).removeClass('hidden');
+
+        });
+        });
+    </script>
+
+    <!-- end of useless java. -->
+</body>
+
+</html>
+
+<!-- end of useless java. -->
+</body>
+
+</html>
